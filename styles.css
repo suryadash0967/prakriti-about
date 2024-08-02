@@ -20,9 +20,13 @@ body {
 }
 
 .navBar {
+    width: 100%;
     background-color: #FAF0BD;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0;
 }
 
 .navBar .navbar-navigations {
@@ -68,6 +72,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 140px;
 }
 
 .about-underline {
